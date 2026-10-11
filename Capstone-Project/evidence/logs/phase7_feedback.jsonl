@@ -1,0 +1,10 @@
+{"timestamp_utc":"2026-10-03T11:07:22.594477+00:00","rating":"not_helpful","tool_name":"policy_lookup"}
+{"timestamp_utc":"2026-10-03T11:07:27.283573+00:00","rating":"not_helpful","tool_name":"policy_lookup"}
+{"timestamp_utc":"2026-10-03T11:07:33.036250+00:00","rating":"not_helpful","tool_name":"policy_lookup"}
+{"timestamp_utc":"2026-10-03T11:07:34.969262+00:00","rating":"not_helpful","tool_name":"policy_lookup"}
+{"timestamp_utc":"2026-10-03T11:19:35.753261+00:00","rating":"not_helpful","tool_name":"none"}
+{"timestamp_utc":"2026-10-03T16:27:06.389520+00:00","rating":"helpful","tool_name":"loan_process_lookup"}
+{"timestamp_utc":"2026-10-03T16:32:26.043017+00:00","rating":"not_helpful","tool_name":"transfer_limit_lookup"}
+{"timestamp_utc":"2026-10-03T16:36:56.537776+00:00","rating":"not_helpful","tool_name":"policy_lookup"}
+{"timestamp_utc":"2026-10-10T06:20:22.877081+00:00","rating":"not_helpful","tool_name":"policy_lookup"}
+{"timestamp_utc": "2026-10-10T06:42:18.898820+00:00", "rating": "not_helpful", "tool_name": "atm_usage_lookup", "response_id": "9beb32d1e547447eb88f92ef7a6e4093"}

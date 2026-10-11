@@ -1,0 +1,86 @@
+{
+  "documents": [
+    {
+      "file_name": "01_otp_phishing_safety.md",
+      "source": "https://www.rbi.org.in/"
+    },
+    {
+      "file_name": "02_digital_banking_safe_practices.md",
+      "source": "https://www.rbi.org.in/"
+    },
+    {
+      "file_name": "03_card_blocking_process.md",
+      "source": "https://www.visa.co.in/"
+    },
+    {
+      "file_name": "04_unauthorized_transaction_reporting.md",
+      "source": "https://www.rbi.org.in/"
+    },
+    {
+      "file_name": "05_grievance_redressal_ombudsman.md",
+      "source": "https://cms.rbi.org.in/"
+    },
+    {
+      "file_name": "06_kyc_update_overview.md",
+      "source": "https://www.rbi.org.in/"
+    },
+    {
+      "file_name": "07_deposit_insurance_basics.md",
+      "source": "https://www.dicgc.org.in/"
+    },
+    {
+      "file_name": "08_upi_fraud_reporting.md",
+      "source": "https://www.npci.org.in/"
+    },
+    {
+      "file_name": "09_salary_account_comparison.md",
+      "source": "https://www.consumerfinance.gov/"
+    },
+    {
+      "file_name": "10_card_charge_dispute_flow.md",
+      "source": "https://www.mastercard.co.in/"
+    },
+    {
+      "file_name": "11_dormant_account_reactivation.md",
+      "source": "https://www.rbi.org.in/"
+    },
+    {
+      "file_name": "12_pii_and_data_sharing_safety.md",
+      "source": "https://www.cisa.gov/"
+    },
+    {
+      "file_name": "13_phishing_email_red_flags.md",
+      "source": "https://consumer.ftc.gov/"
+    },
+    {
+      "file_name": "14_scam_call_response_steps.md",
+      "source": "https://www.fcc.gov/"
+    },
+    {
+      "file_name": "15_escalation_channel_matrix.md",
+      "source": "https://www.rbi.org.in/ ; https://cms.rbi.org.in/"
+    },
+    {
+      "file_name": "16_personal_loan_process.md",
+      "source": "https://www.hdfcbank.com/personal-loans"
+    },
+    {
+      "file_name": "17_home_loan_process.md",
+      "source": "https://www.icicibank.com/loans/home-loan"
+    },
+    {
+      "file_name": "18_atm_usage_policy.md",
+      "source": "https://www.rbi.org.in/"
+    },
+    {
+      "file_name": "19_online_transfer_limit_policy.md",
+      "source": "https://www.rbi.org.in/"
+    },
+    {
+      "file_name": "20_foreign_money_transfer_charges.md",
+      "source": "https://www.rbi.org.in/"
+    }
+  ],
+  "files_count": 20,
+  "chunks_count": 31
+}

@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "id": "chatInput",
+      "type": "ChatInput",
+      "position": {"x": 40, "y": 80},
+      "data": {"label": "Chat Input"}
+    },
+    {
+      "id": "memory",
+      "type": "BufferMemory",
+      "position": {"x": 220, "y": 80},
+      "data": {"memoryKey": "chat_history", "maxMemorySize": 5}
+    },
+    {
+      "id": "documentLoader",
+      "type": "PDFLoader",
+      "position": {"x": 40, "y": 240},
+      "data": {"pdfFile": "Jewellery Details.pdf", "metadata": {"source": "catalogue.pdf"}}
+    },
+    {
+      "id": "textSplitter",
+      "type": "RecursiveCharacterTextSplitter",
+      "position": {"x": 220, "y": 240},
+      "data": {"chunkSize": 500, "chunkOverlap": 100}
+    },
+    {
+      "id": "embeddings",
+      "type": "OpenAIEmbeddings",
+      "position": {"x": 420, "y": 240},
+      "data": {"model": "text-embedding-3-small"}
+    },
+    {
+      "id": "vectorStore",
+      "type": "VectorStore",
+      "position": {"x": 620, "y": 240},
+      "data": {"vectorStore": "faiss", "collectionName": "ornativa_jewellery_catalog"}
+    },
+    {
+      "id": "retriever",
+      "type": "Retriever",
+      "position": {"x": 620, "y": 80},
+      "data": {"topK": 4, "queryParams": {"scoreThreshold": 0.0}}
+    },
+    {
+      "id": "promptTemplate",
+      "type": "PromptTemplate",
+      "position": {"x": 820, "y": 80},
+      "data": {
+        "template": "You are Ornativa's virtual jewellery expert. Answer using the catalogue data only, stay polite, concise, and factual. If an item is out of stock, suggest a relevant alternative product.\n\nContext:\n{context}\n\nConversation History:\n{chat_history}\n\nUser Question:\n{question}"
+      }
+    },
+    {
+      "id": "chatModel",
+      "type": "ChatOpenAI",
+      "position": {"x": 1020, "y": 80},
+      "data": {"model": "gpt-4o-mini", "temperature": 0.2}
+    },
+    {
+      "id": "chatOutput",
+      "type": "ChatOutput",
+      "position": {"x": 1220, "y": 80},
+      "data": {"label": "Chat Output"}
+    }
+  ],
+  "edges": [
+    {"source": "chatInput", "target": "memory", "sourceHandle": "output", "targetHandle": "input"},
+    {"source": "documentLoader", "target": "textSplitter", "sourceHandle": "output", "targetHandle": "input"},
+    {"source": "textSplitter", "target": "embeddings", "sourceHandle": "output", "targetHandle": "input"},
+    {"source": "embeddings", "target": "vectorStore", "sourceHandle": "output", "targetHandle": "input"},
+    {"source": "vectorStore", "target": "retriever", "sourceHandle": "output", "targetHandle": "input"},
+    {"source": "chatInput", "target": "promptTemplate", "sourceHandle": "output", "targetHandle": "question"},
+    {"source": "memory", "target": "promptTemplate", "sourceHandle": "output", "targetHandle": "chat_history"},
+    {"source": "retriever", "target": "promptTemplate", "sourceHandle": "output", "targetHandle": "context"},
+    {"source": "promptTemplate", "target": "chatModel", "sourceHandle": "output", "targetHandle": "input"},
+    {"source": "chatModel", "target": "chatOutput", "sourceHandle": "output", "targetHandle": "input"}
+  ]
+}

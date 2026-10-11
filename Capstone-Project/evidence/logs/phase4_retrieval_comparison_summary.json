@@ -1,0 +1,13 @@
+{
+  "executed_at_utc": "2026-09-30T05:26:31.539032+00:00",
+  "with_retrieval": {
+    "total_cases": 6,
+    "decision_accuracy": 0.667,
+    "groundedness_alignment": 0.667
+  },
+  "without_retrieval": {
+    "total_cases": 6,
+    "decision_accuracy": 0.333,
+    "groundedness_alignment": 0.333
+  }
+}

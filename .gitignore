@@ -1,0 +1,27 @@
+.env
+Assignments-15/__pycache__/chatbot.cpython-312.pyc
+Assignments-15/__pycache__/ingest.cpython-312.pyc
+downloads/Kadhal Kanave Official Full Song - Mundasupatti.webm
+Capstone-Project/tests/__pycache__/test_baseline_agent.cpython-312-pytest-9.1.1.pyc
+Capstone-Project/tests/__pycache__/test_phase5_tools.cpython-312-pytest-9.1.1.pyc
+Capstone-Project/tests/__pycache__/test_phase7_feedback.cpython-312-pytest-9.1.1.pyc
+Capstone-Project/tests/__pycache__/test_reliability_hardening.cpython-312-pytest-9.1.1.pyc
+Capstone-Project/tests/__pycache__/test_safety_privacy.cpython-312-pytest-9.1.1.pyc
+Capstone-Project/src/__pycache__/baseline_agent.cpython-312.pyc
+Capstone-Project/src/__pycache__/phase3_llm_agent.cpython-312.pyc
+Capstone-Project/src/__pycache__/phase4_rag_agent.cpython-312.pyc
+Capstone-Project/src/__pycache__/phase5_tool_agent.cpython-312.pyc
+Capstone-Project/src/__pycache__/safety_privacy.cpython-312.pyc
+Capstone-Project/__pycache__/streamlit_app.cpython-312.pyc
+Assignments-20/__pycache__/generic_rag_chatbot.cpython-312.pyc
+Assignments-20/__pycache__/ornativa_chatbot.cpython-312.pyc
+Assignments-20/__pycache__/streamlit_app.cpython-312.pyc
+Assignments-20/__pycache__/test_generic_rag_chatbot.cpython-312-pytest-9.1.1.pyc
+Assignments-20/__pycache__/test_ornativa_chatbot.cpython-312-pytest-9.1.1.pyc
+Assignments-20/__pycache__/test_universal_document_agent.cpython-312-pytest-9.1.1.pyc
+__pycache__/chat_test.cpython-312-pytest-9.1.1.pyc
+__pycache__/ornativa_chatbot.cpython-312.pyc
+*.faiss
+*.pkl
+__pycache__*
+.venv/

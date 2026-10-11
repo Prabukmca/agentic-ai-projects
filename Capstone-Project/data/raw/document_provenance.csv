@@ -1,0 +1,16 @@
+doc_id,file_name,source_url,last_checked,use_case
+1,01_otp_phishing_safety.md,https://www.rbi.org.in/,2026-09-30,fraud safety escalation
+2,02_digital_banking_safe_practices.md,https://www.rbi.org.in/,2026-09-30,digital safety hygiene
+3,03_card_blocking_process.md,https://www.visa.co.in/,2026-09-30,lost card guidance
+4,04_unauthorized_transaction_reporting.md,https://www.rbi.org.in/,2026-09-30,dispute reporting timeline
+5,05_grievance_redressal_ombudsman.md,https://cms.rbi.org.in/,2026-09-30,complaint escalation routing
+6,06_kyc_update_overview.md,https://www.rbi.org.in/,2026-09-30,kyc process guidance
+7,07_deposit_insurance_basics.md,https://www.dicgc.org.in/,2026-09-30,deposit education
+8,08_upi_fraud_reporting.md,https://www.npci.org.in/,2026-09-30,payment fraud response
+9,09_salary_account_comparison.md,https://www.consumerfinance.gov/,2026-09-30,account advisory checklist
+10,10_card_charge_dispute_flow.md,https://www.mastercard.co.in/,2026-09-30,charge dispute guidance
+11,11_dormant_account_reactivation.md,https://www.rbi.org.in/,2026-09-30,account reactivation guidance
+12,12_pii_and_data_sharing_safety.md,https://www.cisa.gov/,2026-09-30,privacy-safe practices
+13,13_phishing_email_red_flags.md,https://consumer.ftc.gov/,2026-09-30,phishing detection
+14,14_scam_call_response_steps.md,https://www.fcc.gov/,2026-09-30,scam-call response
+15,15_escalation_channel_matrix.md,https://www.rbi.org.in/;https://cms.rbi.org.in/,2026-09-30,escalation level mapping
