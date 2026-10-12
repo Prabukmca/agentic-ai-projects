@@ -365,13 +365,17 @@ prompt = st.chat_input("Ask a banking support/advisory question")
 if prompt:
     conversation_history = st.session_state.chat_history[-20:]
     add_history("user", prompt)
+    with st.chat_message("user"):
+        st.markdown(prompt)
 
     try:
-        result = agent.run(
-            prompt,
-            conversation_history=conversation_history,
-            feedback_context={"style_preferences": st.session_state.feedback_preferences},
-        )
+        with st.chat_message("assistant"):
+            with st.spinner("Thinking..."):
+                result = agent.run(
+                    prompt,
+                    conversation_history=conversation_history,
+                    feedback_context={"style_preferences": st.session_state.feedback_preferences},
+                )
         add_history(
             "assistant",
             result.answer,
